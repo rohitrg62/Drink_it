@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E87D9718B9F564FF4545CDE /* libPods-DrinkItUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2304964544DB7FABD00D741 /* libPods-DrinkItUITests.a */; };
+		6FEF78E8963E22AA0BBDC259 /* libPods-DrinkIt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80572D3B25CC33FF43FDFEE2 /* libPods-DrinkIt.a */; };
+		9B384FC11F3D9C2F00E56C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B384FC01F3D9C2F00E56C2A /* main.m */; };
+		9B384FCD1F3D9C2F00E56C2A /* DrinkIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B384FCB1F3D9C2F00E56C2A /* DrinkIt.xcdatamodeld */; };
+		9B384FDD1F3D9C2F00E56C2A /* DrinkItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B384FDC1F3D9C2F00E56C2A /* DrinkItTests.m */; };
+		9B384FE81F3D9C2F00E56C2A /* DrinkItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B384FE71F3D9C2F00E56C2A /* DrinkItUITests.m */; };
+		9B384FFD1F3D9C5F00E56C2A /* PopOverTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B384FF61F3D9C5F00E56C2A /* PopOverTimeViewController.m */; };
+		9B384FFF1F3D9C5F00E56C2A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B384FFA1F3D9C5F00E56C2A /* SettingsViewController.m */; };
+		9B3850001F3D9C5F00E56C2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B384FFC1F3D9C5F00E56C2A /* ViewController.m */; };
+		9B3850071F3D9C7200E56C2A /* DrinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3850021F3D9C7200E56C2A /* DrinkViewController.m */; };
+		9B3850081F3D9C7200E56C2A /* FactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3850041F3D9C7200E56C2A /* FactViewController.m */; };
+		9B38500C1F3D9C7B00E56C2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B38500B1F3D9C7B00E56C2A /* AppDelegate.m */; };
+		9B38500F1F3D9C8700E56C2A /* Drink_Time.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B38500D1F3D9C8700E56C2A /* Drink_Time.xcdatamodeld */; };
+		9B3850121F3D9C9600E56C2A /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3850111F3D9C9600E56C2A /* CalendarViewController.m */; };
+		9B3850151F3D9CA600E56C2A /* IntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3850141F3D9CA600E56C2A /* IntroductionViewController.m */; };
+		9B38501C1F3D9F8B00E56C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B38501B1F3D9F8B00E56C2A /* Assets.xcassets */; };
+		9B38501E1F3DA01000E56C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B38501D1F3DA01000E56C2A /* LaunchScreen.storyboard */; };
+		9B3850201F3DB59E00E56C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B38501F1F3DB59E00E56C2A /* Main.storyboard */; };
+		C595E3480C5DB3E283FF8CB8 /* libPods-DrinkItTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CBB91D1803CD562FC58FC3 /* libPods-DrinkItTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B384FD91F3D9C2F00E56C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B384FB41F3D9C2F00E56C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B384FBB1F3D9C2F00E56C2A;
+			remoteInfo = DrinkIt;
+		};
+		9B384FE41F3D9C2F00E56C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B384FB41F3D9C2F00E56C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B384FBB1F3D9C2F00E56C2A;
+			remoteInfo = DrinkIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04666FBB91B821800693E7CC /* Pods-DrinkItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkItTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkItTests/Pods-DrinkItTests.release.xcconfig"; sourceTree = "<group>"; };
+		50B24794A3242228E9E71955 /* Pods-DrinkIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkIt/Pods-DrinkIt.debug.xcconfig"; sourceTree = "<group>"; };
+		707AE50B1ACFF2FF2009BDC9 /* Pods-DrinkItUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkItUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkItUITests/Pods-DrinkItUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80572D3B25CC33FF43FDFEE2 /* libPods-DrinkIt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrinkIt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB536B6EDF249ACC8AD9F85 /* Pods-DrinkIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkIt/Pods-DrinkIt.release.xcconfig"; sourceTree = "<group>"; };
+		9B384FBC1F3D9C2F00E56C2A /* DrinkIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B384FC01F3D9C2F00E56C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B384FCC1F3D9C2F00E56C2A /* DrinkIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrinkIt.xcdatamodel; sourceTree = "<group>"; };
+		9B384FD31F3D9C2F00E56C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B384FD81F3D9C2F00E56C2A /* DrinkItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B384FDC1F3D9C2F00E56C2A /* DrinkItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrinkItTests.m; sourceTree = "<group>"; };
+		9B384FDE1F3D9C2F00E56C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B384FE31F3D9C2F00E56C2A /* DrinkItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B384FE71F3D9C2F00E56C2A /* DrinkItUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrinkItUITests.m; sourceTree = "<group>"; };
+		9B384FE91F3D9C2F00E56C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B384FF51F3D9C5F00E56C2A /* PopOverTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOverTimeViewController.h; sourceTree = "<group>"; };
+		9B384FF61F3D9C5F00E56C2A /* PopOverTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOverTimeViewController.m; sourceTree = "<group>"; };
+		9B384FF91F3D9C5F00E56C2A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9B384FFA1F3D9C5F00E56C2A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		9B384FFB1F3D9C5F00E56C2A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B384FFC1F3D9C5F00E56C2A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B3850011F3D9C7200E56C2A /* DrinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkViewController.h; sourceTree = "<group>"; };
+		9B3850021F3D9C7200E56C2A /* DrinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkViewController.m; sourceTree = "<group>"; };
+		9B3850031F3D9C7200E56C2A /* FactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactViewController.h; sourceTree = "<group>"; };
+		9B3850041F3D9C7200E56C2A /* FactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactViewController.m; sourceTree = "<group>"; };
+		9B38500A1F3D9C7B00E56C2A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B38500B1F3D9C7B00E56C2A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B38500E1F3D9C8700E56C2A /* Drink_Time.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drink_Time.xcdatamodel; sourceTree = "<group>"; };
+		9B3850101F3D9C9600E56C2A /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		9B3850111F3D9C9600E56C2A /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		9B3850131F3D9CA600E56C2A /* IntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductionViewController.h; sourceTree = "<group>"; };
+		9B3850141F3D9CA600E56C2A /* IntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionViewController.m; sourceTree = "<group>"; };
+		9B38501B1F3D9F8B00E56C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B38501D1F3DA01000E56C2A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B38501F1F3DB59E00E56C2A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A2304964544DB7FABD00D741 /* libPods-DrinkItUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrinkItUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CBB91D1803CD562FC58FC3 /* libPods-DrinkItTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrinkItTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C095B3C3792644BC48F1415B /* Pods-DrinkItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkItTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkItTests/Pods-DrinkItTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCA720D8DD61172413B6E54F /* Pods-DrinkItUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrinkItUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrinkItUITests/Pods-DrinkItUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B384FB91F3D9C2F00E56C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEF78E8963E22AA0BBDC259 /* libPods-DrinkIt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B384FD51F3D9C2F00E56C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C595E3480C5DB3E283FF8CB8 /* libPods-DrinkItTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B384FE01F3D9C2F00E56C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E87D9718B9F564FF4545CDE /* libPods-DrinkItUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A618EF226F8ADA2D93FA250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80572D3B25CC33FF43FDFEE2 /* libPods-DrinkIt.a */,
+				A2CBB91D1803CD562FC58FC3 /* libPods-DrinkItTests.a */,
+				A2304964544DB7FABD00D741 /* libPods-DrinkItUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		996DAA8D6F2BD73321F94FAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50B24794A3242228E9E71955 /* Pods-DrinkIt.debug.xcconfig */,
+				8EB536B6EDF249ACC8AD9F85 /* Pods-DrinkIt.release.xcconfig */,
+				C095B3C3792644BC48F1415B /* Pods-DrinkItTests.debug.xcconfig */,
+				04666FBB91B821800693E7CC /* Pods-DrinkItTests.release.xcconfig */,
+				CCA720D8DD61172413B6E54F /* Pods-DrinkItUITests.debug.xcconfig */,
+				707AE50B1ACFF2FF2009BDC9 /* Pods-DrinkItUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B384FB31F3D9C2F00E56C2A = {
+			isa = PBXGroup;
+			children = (
+				9B384FBE1F3D9C2F00E56C2A /* DrinkIt */,
+				9B384FDB1F3D9C2F00E56C2A /* DrinkItTests */,
+				9B384FE61F3D9C2F00E56C2A /* DrinkItUITests */,
+				9B384FBD1F3D9C2F00E56C2A /* Products */,
+				996DAA8D6F2BD73321F94FAF /* Pods */,
+				5A618EF226F8ADA2D93FA250 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B384FBD1F3D9C2F00E56C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B384FBC1F3D9C2F00E56C2A /* DrinkIt.app */,
+				9B384FD81F3D9C2F00E56C2A /* DrinkItTests.xctest */,
+				9B384FE31F3D9C2F00E56C2A /* DrinkItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B384FBE1F3D9C2F00E56C2A /* DrinkIt */ = {
+			isa = PBXGroup;
+			children = (
+				9B38501F1F3DB59E00E56C2A /* Main.storyboard */,
+				9B3850131F3D9CA600E56C2A /* IntroductionViewController.h */,
+				9B3850141F3D9CA600E56C2A /* IntroductionViewController.m */,
+				9B3850101F3D9C9600E56C2A /* CalendarViewController.h */,
+				9B3850111F3D9C9600E56C2A /* CalendarViewController.m */,
+				9B38500A1F3D9C7B00E56C2A /* AppDelegate.h */,
+				9B38500B1F3D9C7B00E56C2A /* AppDelegate.m */,
+				9B3850011F3D9C7200E56C2A /* DrinkViewController.h */,
+				9B3850021F3D9C7200E56C2A /* DrinkViewController.m */,
+				9B3850031F3D9C7200E56C2A /* FactViewController.h */,
+				9B3850041F3D9C7200E56C2A /* FactViewController.m */,
+				9B38501D1F3DA01000E56C2A /* LaunchScreen.storyboard */,
+				9B384FF51F3D9C5F00E56C2A /* PopOverTimeViewController.h */,
+				9B384FF61F3D9C5F00E56C2A /* PopOverTimeViewController.m */,
+				9B384FF91F3D9C5F00E56C2A /* SettingsViewController.h */,
+				9B384FFA1F3D9C5F00E56C2A /* SettingsViewController.m */,
+				9B384FFB1F3D9C5F00E56C2A /* ViewController.h */,
+				9B384FFC1F3D9C5F00E56C2A /* ViewController.m */,
+				9B384FD31F3D9C2F00E56C2A /* Info.plist */,
+				9B38501B1F3D9F8B00E56C2A /* Assets.xcassets */,
+				9B38500D1F3D9C8700E56C2A /* Drink_Time.xcdatamodeld */,
+				9B384FCB1F3D9C2F00E56C2A /* DrinkIt.xcdatamodeld */,
+				9B384FBF1F3D9C2F00E56C2A /* Supporting Files */,
+			);
+			path = DrinkIt;
+			sourceTree = "<group>";
+		};
+		9B384FBF1F3D9C2F00E56C2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B384FC01F3D9C2F00E56C2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B384FDB1F3D9C2F00E56C2A /* DrinkItTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B384FDC1F3D9C2F00E56C2A /* DrinkItTests.m */,
+				9B384FDE1F3D9C2F00E56C2A /* Info.plist */,
+			);
+			path = DrinkItTests;
+			sourceTree = "<group>";
+		};
+		9B384FE61F3D9C2F00E56C2A /* DrinkItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B384FE71F3D9C2F00E56C2A /* DrinkItUITests.m */,
+				9B384FE91F3D9C2F00E56C2A /* Info.plist */,
+			);
+			path = DrinkItUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B384FBB1F3D9C2F00E56C2A /* DrinkIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B384FEC1F3D9C2F00E56C2A /* Build configuration list for PBXNativeTarget "DrinkIt" */;
+			buildPhases = (
+				3C40575C3230DD1C76CF94DC /* [CP] Check Pods Manifest.lock */,
+				9B384FB81F3D9C2F00E56C2A /* Sources */,
+				9B384FB91F3D9C2F00E56C2A /* Frameworks */,
+				9B384FBA1F3D9C2F00E56C2A /* Resources */,
+				CBE3BE4C6C3A70E7557BB248 /* [CP] Embed Pods Frameworks */,
+				14CC5CC29F5F1F2A733D4BF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkIt;
+			productName = DrinkIt;
+			productReference = 9B384FBC1F3D9C2F00E56C2A /* DrinkIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B384FD71F3D9C2F00E56C2A /* DrinkItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B384FEF1F3D9C2F00E56C2A /* Build configuration list for PBXNativeTarget "DrinkItTests" */;
+			buildPhases = (
+				B0D28CCDCFBE5855735D3850 /* [CP] Check Pods Manifest.lock */,
+				9B384FD41F3D9C2F00E56C2A /* Sources */,
+				9B384FD51F3D9C2F00E56C2A /* Frameworks */,
+				9B384FD61F3D9C2F00E56C2A /* Resources */,
+				9BA28BC1FB955F9F4B844DB5 /* [CP] Embed Pods Frameworks */,
+				B94BEAEBB459A98266867DC2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B384FDA1F3D9C2F00E56C2A /* PBXTargetDependency */,
+			);
+			name = DrinkItTests;
+			productName = DrinkItTests;
+			productReference = 9B384FD81F3D9C2F00E56C2A /* DrinkItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B384FE21F3D9C2F00E56C2A /* DrinkItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B384FF21F3D9C2F00E56C2A /* Build configuration list for PBXNativeTarget "DrinkItUITests" */;
+			buildPhases = (
+				E62079A9D509A1F76F8D7D2F /* [CP] Check Pods Manifest.lock */,
+				9B384FDF1F3D9C2F00E56C2A /* Sources */,
+				9B384FE01F3D9C2F00E56C2A /* Frameworks */,
+				9B384FE11F3D9C2F00E56C2A /* Resources */,
+				942C840D8DFB57252A0F0EA0 /* [CP] Embed Pods Frameworks */,
+				333442D27C72300A8DCCA2FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B384FE51F3D9C2F00E56C2A /* PBXTargetDependency */,
+			);
+			name = DrinkItUITests;
+			productName = DrinkItUITests;
+			productReference = 9B384FE31F3D9C2F00E56C2A /* DrinkItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B384FB41F3D9C2F00E56C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rohit Gupta";
+				TargetAttributes = {
+					9B384FBB1F3D9C2F00E56C2A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9B384FD71F3D9C2F00E56C2A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B384FBB1F3D9C2F00E56C2A;
+					};
+					9B384FE21F3D9C2F00E56C2A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B384FBB1F3D9C2F00E56C2A;
+					};
+				};
+			};
+			buildConfigurationList = 9B384FB71F3D9C2F00E56C2A /* Build configuration list for PBXProject "DrinkIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B384FB31F3D9C2F00E56C2A;
+			productRefGroup = 9B384FBD1F3D9C2F00E56C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B384FBB1F3D9C2F00E56C2A /* DrinkIt */,
+				9B384FD71F3D9C2F00E56C2A /* DrinkItTests */,
+				9B384FE21F3D9C2F00E56C2A /* DrinkItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B384FBA1F3D9C2F00E56C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3850201F3DB59E00E56C2A /* Main.storyboard in Resources */,
+				9B38501E1F3DA01000E56C2A /* LaunchScreen.storyboard in Resources */,
+				9B38501C1F3D9F8B00E56C2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B384FD61F3D9C2F00E56C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B384FE11F3D9C2F00E56C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14CC5CC29F5F1F2A733D4BF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DrinkIt/Pods-DrinkIt-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FCVerticalMenu/FCVerticalMenu.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/JVMenuPopover/JVMenuPopover.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkIt/Pods-DrinkIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		333442D27C72300A8DCCA2FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkItUITests/Pods-DrinkItUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C40575C3230DD1C76CF94DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrinkIt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		942C840D8DFB57252A0F0EA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkItUITests/Pods-DrinkItUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA28BC1FB955F9F4B844DB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkItTests/Pods-DrinkItTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0D28CCDCFBE5855735D3850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrinkItTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B94BEAEBB459A98266867DC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkItTests/Pods-DrinkItTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE3BE4C6C3A70E7557BB248 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrinkIt/Pods-DrinkIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E62079A9D509A1F76F8D7D2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrinkItUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B384FB81F3D9C2F00E56C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3850001F3D9C5F00E56C2A /* ViewController.m in Sources */,
+				9B3850071F3D9C7200E56C2A /* DrinkViewController.m in Sources */,
+				9B38500F1F3D9C8700E56C2A /* Drink_Time.xcdatamodeld in Sources */,
+				9B3850121F3D9C9600E56C2A /* CalendarViewController.m in Sources */,
+				9B3850151F3D9CA600E56C2A /* IntroductionViewController.m in Sources */,
+				9B38500C1F3D9C7B00E56C2A /* AppDelegate.m in Sources */,
+				9B384FCD1F3D9C2F00E56C2A /* DrinkIt.xcdatamodeld in Sources */,
+				9B3850081F3D9C7200E56C2A /* FactViewController.m in Sources */,
+				9B384FFF1F3D9C5F00E56C2A /* SettingsViewController.m in Sources */,
+				9B384FC11F3D9C2F00E56C2A /* main.m in Sources */,
+				9B384FFD1F3D9C5F00E56C2A /* PopOverTimeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B384FD41F3D9C2F00E56C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B384FDD1F3D9C2F00E56C2A /* DrinkItTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B384FDF1F3D9C2F00E56C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B384FE81F3D9C2F00E56C2A /* DrinkItUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B384FDA1F3D9C2F00E56C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B384FBB1F3D9C2F00E56C2A /* DrinkIt */;
+			targetProxy = 9B384FD91F3D9C2F00E56C2A /* PBXContainerItemProxy */;
+		};
+		9B384FE51F3D9C2F00E56C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B384FBB1F3D9C2F00E56C2A /* DrinkIt */;
+			targetProxy = 9B384FE41F3D9C2F00E56C2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B384FEA1F3D9C2F00E56C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B384FEB1F3D9C2F00E56C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B384FED1F3D9C2F00E56C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B24794A3242228E9E71955 /* Pods-DrinkIt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrinkIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiffy.com.DrinkIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9B384FEE1F3D9C2F00E56C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB536B6EDF249ACC8AD9F85 /* Pods-DrinkIt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrinkIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiffy.com.DrinkIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9B384FF01F3D9C2F00E56C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C095B3C3792644BC48F1415B /* Pods-DrinkItTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrinkItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiffy.com.DrinkItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkIt.app/DrinkIt";
+			};
+			name = Debug;
+		};
+		9B384FF11F3D9C2F00E56C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04666FBB91B821800693E7CC /* Pods-DrinkItTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrinkItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiffy.com.DrinkItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkIt.app/DrinkIt";
+			};
+			name = Release;
+		};
+		9B384FF31F3D9C2F00E56C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA720D8DD61172413B6E54F /* Pods-DrinkItUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DrinkItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiffy.com.DrinkItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrinkIt;
+			};
+			name = Debug;
+		};
+		9B384FF41F3D9C2F00E56C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707AE50B1ACFF2FF2009BDC9 /* Pods-DrinkItUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DrinkItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiffy.com.DrinkItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrinkIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B384FB71F3D9C2F00E56C2A /* Build configuration list for PBXProject "DrinkIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B384FEA1F3D9C2F00E56C2A /* Debug */,
+				9B384FEB1F3D9C2F00E56C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B384FEC1F3D9C2F00E56C2A /* Build configuration list for PBXNativeTarget "DrinkIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B384FED1F3D9C2F00E56C2A /* Debug */,
+				9B384FEE1F3D9C2F00E56C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B384FEF1F3D9C2F00E56C2A /* Build configuration list for PBXNativeTarget "DrinkItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B384FF01F3D9C2F00E56C2A /* Debug */,
+				9B384FF11F3D9C2F00E56C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B384FF21F3D9C2F00E56C2A /* Build configuration list for PBXNativeTarget "DrinkItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B384FF31F3D9C2F00E56C2A /* Debug */,
+				9B384FF41F3D9C2F00E56C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B384FCB1F3D9C2F00E56C2A /* DrinkIt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B384FCC1F3D9C2F00E56C2A /* DrinkIt.xcdatamodel */,
+			);
+			currentVersion = 9B384FCC1F3D9C2F00E56C2A /* DrinkIt.xcdatamodel */;
+			path = DrinkIt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		9B38500D1F3D9C8700E56C2A /* Drink_Time.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B38500E1F3D9C8700E56C2A /* Drink_Time.xcdatamodel */,
+			);
+			currentVersion = 9B38500E1F3D9C8700E56C2A /* Drink_Time.xcdatamodel */;
+			path = Drink_Time.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B384FB41F3D9C2F00E56C2A /* Project object */;
+}

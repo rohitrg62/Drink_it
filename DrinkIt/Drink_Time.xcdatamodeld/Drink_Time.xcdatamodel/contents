@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Details" representedClassName="Details" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="drank" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DrinkCount" representedClassName="DrinkCount" syncable="YES" codeGenerationType="class">
+        <attribute name="count" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="glasssize" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="DrinkDetails" representedClassName="DrinkDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dailyroutinetext" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="routinetime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="routinetimemorning" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sleeptime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Details" positionX="-54" positionY="45" width="128" height="75"/>
+        <element name="DrinkCount" positionX="-225" positionY="-108" width="128" height="90"/>
+        <element name="DrinkDetails" positionX="61" positionY="-180" width="128" height="180"/>
+    </elements>
+</model>
